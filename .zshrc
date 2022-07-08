@@ -10,48 +10,16 @@ export ZSH="/Users/tom/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 
 ZSH_THEME="typewritten"
-# ZSH_THEME="spaceship"
 
 export TYPEWRITTEN_CURSOR="block"
-export TYPEWRITTEN_PROMPT_LAYOUT="half_pure"
+export TYPEWRITTEN_PROMPT_LAYOUT="pure"
 export TYPEWRITTEN_RELATIVE_PATH="off"
 export TYPEWRITTEN_DISABLE_RETURN_CODE=true
 # export TYPEWRITTEN_SYMBOL="->"
 export TYPEWRITTEN_SYMBOL=">"
-export TYPEWRITTEN_COLOR_MAPPINGS="secondary:default"
-
-# SPACESHIP_CHAR_SYMBOL="> "
-# SPACESHIP_CHAR_SYMBOL="-> "
-# SPACESHIP_GIT_SYMBOL="ᚠ "
-# SPACESHIP_GIT_SYMBOL=" "
-# SPACESHIP_CHAR_COLOR_SUCCESS=NONE
-# SPACESHIP_DIR_COLOR=NONE
-# SPACESHIP_DIR_TRUNC=1
-# SPACESHIP_DIR_TRUNC_REPO=false
-# SPACESHIP_PACKAGE_SHOW=false
-# SPACESHIP_BATTERY_SHOW=false
-# SPACESHIP_NODE_SHOW=false
-# SPACESHIP_EXEC_TIME_SHOW=false
-
-# SPACESHIP_PROMPT_ADD_NEWLINE=false
-# SPACESHIP_PROMPT_SEPARATE_LINE=true
-# SPACESHIP_TIME_SHOW=true
-# SPACESHIP_TIME_COLOR=none
-# SPACESHIP_HOST_SHOW=always
-# SPACESHIP_GIT_PREFIX="--> "
-
-# SPACESHIP_PROMPT_ORDER=(
-#     dir
-#     git
-#     line_sep
-#     char
-# )
-# SPACESHIP_RPROMPT_ORDER=(
-    # dir
-    # git
-    # host
-    # time
-# )
+export TYPEWRITTEN_ARROW_SYMBOL="on"
+# export TYPEWRITTEN_SYMBOL="#"
+export TYPEWRITTEN_COLOR_MAPPINGS="primary:cyan;secondary:#b8b8b8"
 
 # Aliases
 alias c="clear"
@@ -62,6 +30,7 @@ alias vssh="vagrant ssh"
 alias vh="vagrant halt"
 alias v="nvim"
 alias gw="gulp watch"
+alias k="v ~/.config/kitty/kitty.conf"
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
