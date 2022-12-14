@@ -12,15 +12,15 @@ export ZSH="/Users/tom/.oh-my-zsh"
 # ZSH_THEME="typewritten"
 ZSH_THEME="custom"
 
-export TYPEWRITTEN_CURSOR="block"
-export TYPEWRITTEN_PROMPT_LAYOUT="pure"
-export TYPEWRITTEN_RELATIVE_PATH="off"
-export TYPEWRITTEN_DISABLE_RETURN_CODE=true
+# export TYPEWRITTEN_CURSOR="block"
+# export TYPEWRITTEN_PROMPT_LAYOUT="pure"
+# export TYPEWRITTEN_RELATIVE_PATH="off"
+# export TYPEWRITTEN_DISABLE_RETURN_CODE=true
 # export TYPEWRITTEN_SYMBOL="->"
-export TYPEWRITTEN_SYMBOL=">"
-export TYPEWRITTEN_ARROW_SYMBOL="on"
+# export TYPEWRITTEN_SYMBOL=">"
+# export TYPEWRITTEN_ARROW_SYMBOL="on"
 # export TYPEWRITTEN_SYMBOL="#"
-export TYPEWRITTEN_COLOR_MAPPINGS="primary:cyan;secondary:#b8b8b8"
+# export TYPEWRITTEN_COLOR_MAPPINGS="primary:cyan;secondary:#b8b8b8"
 
 # Aliases
 alias c="clear"
@@ -30,10 +30,11 @@ alias vu="vagrant up"
 alias vssh="vagrant ssh"
 alias vh="vagrant halt"
 alias v="nvim"
+alias t="tmux"
+alias tls="tmux ls"
+alias tk="tmux kill-server"
 alias gw="gulp watch"
 alias k="v ~/.config/kitty/kitty.conf"
-
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 # Desktop Programs
 alias chrome="open -a google\ chrome"
@@ -43,7 +44,7 @@ alias fc='open -a Finder .'
 alias slack="open -a '/Applications/Slack.app'"
 
 # Auto Suggestions
-bindkey '^ ' autosuggest-accept
+bindkey '^e' autosuggest-accept
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load

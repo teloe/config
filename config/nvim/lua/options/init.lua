@@ -54,6 +54,7 @@ Option.g {
     formatoptions = "jtcroql",
     inccommand = "nosplit",
     shortmess = "atIcF",
+    pb = 10,
     isfname = table.concat(
     vim.tbl_filter(
     function(entry)

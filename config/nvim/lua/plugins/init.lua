@@ -82,14 +82,15 @@ return require("packer").startup(function(use)
     use "toppair/prospector.nvim"
     use "adisen99/apprentice.nvim"
     use "ishan9299/modus-theme-vim"
-
     use "rktjmp/lush.nvim"
-    use "~/Desktop/drip.nvim"
-    use "~/Desktop/zonk.nvim"
-    use "~/Desktop/blackout"
 
     -- Git
     use "tpope/vim-fugitive"
+
+    use "TimUntersberger/neogit"
+    local neogit = require('neogit')
+    neogit.setup {}
+
     use "lewis6991/gitsigns.nvim"
     require "gitsigns".setup {
         signs = {

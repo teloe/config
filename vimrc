@@ -333,7 +333,7 @@ set t_Co=256
 set background=dark
 set termguicolors
 " colo dust
-colo molokai
+colo blaque
 " colo onedark
 
 " Custom colors/backgrounds
