@@ -11,14 +11,14 @@ nvimtree.setup {
         },
     },
     renderer = {
-        indent_markers = {
-            enable = true,
-            icons = {
-                corner = "└ ",
-                edge = "│ ",
-                none = "  ",
-            },
-        },
+        -- indent_markers = {
+        --     enable = true,
+        --     icons = {
+        --         corner = "└ ",
+        --         edge = "│ ",
+        --         none = "  ",
+        --     },
+        -- },
         icons = {
             show = {
                 folder_arrow = false,
