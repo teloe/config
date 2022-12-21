@@ -52,7 +52,7 @@ hi SignColumn        guifg=NONE         guibg=NONE         gui=NONE
 " hi Special           guifg=#dddddd      guibg=NONE         gui=NONE
 hi SpecialKey        guifg=#87afaf      guibg=NONE         gui=NONE
 hi Statement         guifg=#999999      guibg=NONE         gui=Bold
-hi StatusLine        guifg=#dddddd      guibg=#404040      gui=NONE
+hi StatusLine        guifg=#dddddd      guibg=#2e4056      gui=NONE
 hi StatusLineNC      guifg=#73828b      guibg=NONE         gui=NONE
 " hi String            guifg=#87875f      guibg=NONE         gui=NONE
 " hi String            guifg=#7a88b5      guibg=NONE         gui=NONE
