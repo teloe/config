@@ -147,3 +147,4 @@ lspconfig.jsonls.setup {
     filetypes = {"json", "jsonc"},
 }
 
+lspconfig.pyright.setup{}

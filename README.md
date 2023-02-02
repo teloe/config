@@ -4,7 +4,13 @@ My configuration files
 
 kitty, zsh, neovim, tmux, git
 
-Includes recently transitioned neovim configuration from init.vim to init.lua
+## Install
+```
+brew install rcm
+git clone https://github.com/teloe/dotfiles.git ~/.dotfiles
+cd $HOME
+rcup
+```
 
 Special thanks to these awesome resources:
 
@@ -13,4 +19,4 @@ Special thanks to these awesome resources:
 - [Neovim — init.lua](https://alpha2phi.medium.com/neovim-init-lua-e80f4f136030)
 - [Learn lua in y minutes](https://learnxinyminutes.com/docs/lua/)
 - [mhartington/dotfiles](https://github.com/mhartington/dotfiles)
-
+- [thoughtbot/rcm](https://github.com/thoughtbot/rcm)

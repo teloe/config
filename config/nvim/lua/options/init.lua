@@ -82,6 +82,7 @@ Option.b {
 }
 Option.w {
     number = true,
+    rnu = true,
     numberwidth = 1,
     signcolumn = "yes",
     spell = false,

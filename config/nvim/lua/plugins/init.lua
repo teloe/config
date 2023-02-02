@@ -29,7 +29,7 @@ return require("packer").startup(function(use)
     use "JoosepAlviste/nvim-ts-context-commentstring"
 
     -- Filetree
-    use "kyazdani42/nvim-tree.lua"
+    use "nvim-tree/nvim-tree.lua"
 
     -- Telescope
     use "nvim-telescope/telescope.nvim"
@@ -88,6 +88,7 @@ return require("packer").startup(function(use)
     use "TimUntersberger/neogit"
     local neogit = require('neogit')
     neogit.setup {}
+    use "sindrets/diffview.nvim"
 
     use "lewis6991/gitsigns.nvim"
     require "gitsigns".setup {

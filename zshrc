@@ -35,6 +35,7 @@ alias tls="tmux ls"
 alias tk="tmux kill-server"
 alias gw="gulp watch"
 alias k="v ~/.config/kitty/kitty.conf"
+alias a="v ~/.alacritty.yml"
 
 # Desktop Programs
 alias chrome="open -a google\ chrome"
