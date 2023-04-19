@@ -5,13 +5,14 @@
 --
 -- repo: https://github.com/teloe/dotfiles/
 
+vim.g.mapleader = ","
+vim.o.tgc = true
+
 require "plugins"
 require "options"
 require "mappings"
 require "lsp"
 require "formatting"
-
-require "dashboard-config"
 require "telescope-config"
 require "treesitter-config"
 require "colors"

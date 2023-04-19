@@ -329,11 +329,11 @@ call dein#add('morhetz/gruvbox')
 
 " Color schemes
 syntax on
-set t_Co=256
+" set t_Co=256
 set background=dark
-set termguicolors
+" set termguicolors
 " colo dust
-colo blaque
+" colo blaque
 " colo onedark
 
 " Custom colors/backgrounds

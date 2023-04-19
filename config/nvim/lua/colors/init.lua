@@ -1,3 +1,3 @@
 local vim = vim
 
-vim.cmd("colorscheme chill")
+vim.cmd("colorscheme te")

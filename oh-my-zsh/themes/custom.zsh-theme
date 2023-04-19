@@ -1,7 +1,7 @@
 # current dir
 dir() {
     # echo "%F{cyan}%1~%{$reset_color%}"
-    echo "%{$FG[247]%}%1~"
+    echo "%B%{$FG[247]%}%1~%b"
 }
 
 function git_prompt_info() {

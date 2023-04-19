@@ -9,19 +9,20 @@
     user = teloe
 
 [alias]
-    s       = status
-    a       = add
-    c       = commit
-    cm      = commit -m
-    p       = push
-    br      = branch
-    co      = checkout
-    cob     = checkout -b
-    cl      = clone
-    unstage = reset HEAD --
-    lg      = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-    lp      = log --pretty=oneline
-    last    = log -1 HEAD
+    s          = status
+    a          = add
+    c          = commit
+    cm         = commit -m
+    p          = push
+    br         = branch
+    co         = checkout
+    cob        = checkout -b
+    cl         = clone
+    unstage    = reset HEAD --
+    lg         = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    lp         = log --pretty=oneline
+    last       = log -1 HEAD
+    whichfiles = diff-tree --no-commit-id --name-only -r
 
 [init]
     defaultBranch = main
